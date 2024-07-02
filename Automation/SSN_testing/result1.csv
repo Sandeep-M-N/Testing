@@ -1,0 +1,11 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1719920791710,766,SSN-Homepage,403,Forbidden,Thread Group 1-1,text,false,,5796,139,1,1,https://www.ssn.edu.in/college-of-engineering/,754,0,715
+1719920792487,25,SSN_about_founder,403,Forbidden,Thread Group 1-1,text,false,,5796,161,1,1,https://www.ssn.edu.in/college-of-engineering/about-ssn-the-founder/,22,0,0
+1719920792512,14,SSN_placements,403,Forbidden,Thread Group 1-1,text,false,,5796,127,1,1,https://www.ssn.edu.in/placements/,12,0,0
+1719920792528,75,SSN_Scholarships,403,Forbidden,Thread Group 1-1,text,false,,5796,141,1,1,http://www.ssn.edu.in/life-at-ssn-scholarships/,75,0,11
+1719920792605,51,SSN_carrers,Non HTTP response code: java.net.UnknownHostException,Non HTTP response message: No such host is known (ssn.edu.in),Thread Group 1-1,text,false,,2525,0,1,1,http://ssn.edu.in/career-ssn/,0,0,51
+1719920792659,13,SSN_alumni,403,Forbidden,Thread Group 1-1,text,false,,5796,140,1,1,https://www.ssn.edu.in/alumni-relations-office/,11,0,0
+1719920792672,50,SSN_iqac,403,Forbidden,Thread Group 1-1,text,false,,5796,129,1,1,http://www.ssn.edu.in/naac-reports/,50,0,0
+1719920792723,51,SSN_reasearch_centre,403,Forbidden,Thread Group 1-1,text,false,,5796,149,1,1,http://www.ssn.edu.in/research-centre-ssn-institutions/,51,0,0
+1719920792774,31,SSn_Academics_people,403,Forbidden,Thread Group 1-1,text,false,,5796,172,1,1,http://www.ssn.edu.in/research-centre-ssn-institutions/research-center-people/,31,0,0
+1719920792806,31,SSN_contact_us,403,Forbidden,Thread Group 1-1,text,false,,5796,132,1,1,http://www.ssn.edu.in/contact-us-main/,31,0,0
