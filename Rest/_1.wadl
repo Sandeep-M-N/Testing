@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application xmlns="http://wadl.dev.java.net/2009/02">
+  <doc xml:lang="en" title="http://www.dneonline.com"/>
+  <resources base="http://www.dneonline.com">
+    <resource path="calculator.asmx" id="Calculator.asmx">
+      <doc xml:lang="en" title="Calculator.asmx"/>
+      <method name="GET" id="Calculator.asmx 1">
+        <doc xml:lang="en" title="Calculator.asmx 1"/>
+        <request/>
+        <response status="200">
+          <representation mediaType="text/html; charset=utf-8"/>
+          <representation mediaType="text/html; charset=UTF-8"/>
+        </response>
+      </method>
+    </resource>
+  </resources>
+</application>

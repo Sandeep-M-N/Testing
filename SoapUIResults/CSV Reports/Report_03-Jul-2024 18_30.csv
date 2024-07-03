@@ -1,0 +1,5 @@
+"Test Suite","Test Case","Test Step","Step Type","Step Status","Result message","Execution Date"
+"TestSuite 1","userTransfer","UserGet","restrequest","OK","","03-Jul-2024 18_30",
+"TestSuite 1","userTransfer","Property Transfer","transfer","OK","Message:Performed transfer [transfer]
+","03-Jul-2024 18_30",
+"TestSuite 1","userTransfer","UserPost","restrequest","UNKNOWN","","03-Jul-2024 18_30",
