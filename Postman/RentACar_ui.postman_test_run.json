@@ -1,0 +1,256 @@
+{
+	"id": "5c186934-79d9-42d4-a364-0bae3eac3671",
+	"name": "RentACar_ui",
+	"timestamp": "2024-07-04T11:12:28.582Z",
+	"collection_id": "36734946-aea056f7-dc9c-4bc9-a802-72619b735e27",
+	"folder_id": 0,
+	"environment_id": "36734946-f5522c35-f995-4d0d-be8a-286612870e38",
+	"totalPass": 15,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-07-04T11:12:26.269Z",
+	"totalFail": 3,
+	"results": [
+		{
+			"id": "533e7292-ea44-4b02-868f-69b3f88703f7",
+			"name": "CarHome",
+			"url": "http://localhost:3000/login",
+			"time": 6,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				119,
+				7,
+				6
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "09de5c8a-e821-482a-b1f2-9ffc38a5dc43",
+			"name": "AdminDashPut",
+			"url": "http://localhost:3000/AdminDash",
+			"time": 22,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				21,
+				12,
+				22
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "2474ddc4-39cf-4ffc-85c1-6f915936457d",
+			"name": "UserGet",
+			"url": "http://localhost:8888/users",
+			"time": 5,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				22,
+				4,
+				5
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "e475fa2e-494c-49ca-9730-7fc6bb777008",
+			"name": "UserPost",
+			"url": "http://localhost:8888/users",
+			"time": 16,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 200": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 0,
+					"fail": 3
+				}
+			},
+			"times": [
+				28,
+				13,
+				16
+			],
+			"allTests": [
+				{
+					"Status code is 200": false
+				},
+				{
+					"Status code is 200": false
+				},
+				{
+					"Status code is 200": false
+				}
+			]
+		},
+		{
+			"id": "8d446ec6-acdb-49fb-ba8b-0907c1cfb040",
+			"name": "UserPut",
+			"url": "http://localhost:8888/users",
+			"time": 4,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				4,
+				4,
+				4
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "49151154-e910-4d92-9515-7a6a185b560d",
+			"name": "UserLogin",
+			"url": "http://localhost:3000/login/demo",
+			"time": 4,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				3,
+				4,
+				4
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 3,
+	"totalTime": 298,
+	"collection": {
+		"requests": [
+			{
+				"id": "533e7292-ea44-4b02-868f-69b3f88703f7",
+				"method": "GET"
+			},
+			{
+				"id": "09de5c8a-e821-482a-b1f2-9ffc38a5dc43",
+				"method": "GET"
+			},
+			{
+				"id": "2474ddc4-39cf-4ffc-85c1-6f915936457d",
+				"method": "GET"
+			},
+			{
+				"id": "e475fa2e-494c-49ca-9730-7fc6bb777008",
+				"method": "POST"
+			},
+			{
+				"id": "8d446ec6-acdb-49fb-ba8b-0907c1cfb040",
+				"method": "PUT"
+			},
+			{
+				"id": "49151154-e910-4d92-9515-7a6a185b560d",
+				"method": "POST"
+			}
+		]
+	}
+}

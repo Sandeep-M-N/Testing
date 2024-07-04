@@ -1,0 +1,126 @@
+{
+	"id": "59bfef26-80d0-4852-a142-80387caf916b",
+	"name": "RentACar_db",
+	"timestamp": "2024-07-04T10:59:33.233Z",
+	"collection_id": "36734946-82f8f431-9ab3-4628-bbc1-1fd57fa04e85",
+	"folder_id": 0,
+	"environment_id": "36734946-f5522c35-f995-4d0d-be8a-286612870e38",
+	"totalPass": 6,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-07-04T10:59:31.598Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "dff74afc-2ab4-4dec-aca6-25f2ce1eecac",
+			"name": "Dbhome",
+			"url": "http://localhost:8888/",
+			"time": 6,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				19,
+				4,
+				6
+			],
+			"allTests": [
+				{},
+				{},
+				{}
+			]
+		},
+		{
+			"id": "eadeb7eb-72c6-4a64-b6b2-239bca2e9474",
+			"name": "DBPost",
+			"url": "http://localhost:8888/users",
+			"time": 14,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				14,
+				21,
+				14
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "73eff509-3713-4bb1-a103-33bf6b3b0490",
+			"name": "DBPUT",
+			"url": "http://localhost:8888/users",
+			"time": 4,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				4,
+				5,
+				4
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 3,
+	"totalTime": 91,
+	"collection": {
+		"requests": [
+			{
+				"id": "dff74afc-2ab4-4dec-aca6-25f2ce1eecac",
+				"method": "GET"
+			},
+			{
+				"id": "eadeb7eb-72c6-4a64-b6b2-239bca2e9474",
+				"method": "POST"
+			},
+			{
+				"id": "73eff509-3713-4bb1-a103-33bf6b3b0490",
+				"method": "PUT"
+			}
+		]
+	}
+}

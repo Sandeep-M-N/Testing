@@ -1,0 +1,332 @@
+{
+	"id": "bf5f87c5-f75c-4583-a5e4-a19c79daae28",
+	"name": "KCGTesting",
+	"timestamp": "2024-07-04T05:53:45.633Z",
+	"collection_id": "36734946-6c605aed-b17f-43d1-9cd7-51c7dd016dcd",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 10,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-07-04T05:53:36.494Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "c4b97f9f-0099-48cc-9b04-36f01d1fba0c",
+			"name": "KCGHomepage",
+			"url": "https://kcgcollege.ac.in/",
+			"time": 1481,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1481
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "90bc913f-2287-4c6b-b903-9759a582cd8c",
+			"name": "KCGAboutCollege",
+			"url": "https://kcgcollege.ac.in/about/about-the-college/",
+			"time": 429,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				429
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "7a8e5331-4223-40bc-bf7d-dc04579cbe64",
+			"name": "KCGAboutOrganisation",
+			"url": "https://kcgcollege.ac.in/about/objectives-of-the-institution/",
+			"time": 406,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				406
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "97530ddd-22f9-44fd-91a5-a44bd7d3909e",
+			"name": "KCGDepartmentIT",
+			"url": "https://kcgcollege.ac.in/departments/information-technology-new/",
+			"time": 629,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				629
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "b27398d5-51f5-4b5c-a120-095d3f45fe75",
+			"name": "KCGDepartmentAeronautical",
+			"url": "https://kcgcollege.ac.in/departments/aeronautical-engineering-new/",
+			"time": 931,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				931
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "91dad1c1-aecc-4fb5-bef5-d63602e65405",
+			"name": "KCGDepartmentCSE",
+			"url": "https://kcgcollege.ac.in/departments/computer-science-engineering-new/",
+			"time": 1768,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1768
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "dba47023-f8e4-412e-a726-f818f423d384",
+			"name": "KCGFacilitsHostel",
+			"url": "https://kcgcollege.ac.in/facilities/hostel/",
+			"time": 556,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				556
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "d1cf929c-8e7a-4628-8034-e3955fc3c1c9",
+			"name": "KCGFacilitiesLibrary",
+			"url": "https://kcgcollege.ac.in/facilities/library/",
+			"time": 538,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				538
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "32405f89-b013-42b9-876d-6d9a30424dda",
+			"name": "KCGFacilitiesTransport",
+			"url": "https://kcgcollege.ac.in/facilities/transport/",
+			"time": 425,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				425
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "9cfb8656-585a-4eaa-bae5-8ec0ab389ab3",
+			"name": "KCGFacilitiesAmbulance",
+			"url": "https://kcgcollege.ac.in/facilities/ambulance/",
+			"time": 414,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				414
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 7577,
+	"collection": {
+		"requests": [
+			{
+				"id": "c4b97f9f-0099-48cc-9b04-36f01d1fba0c",
+				"method": "GET"
+			},
+			{
+				"id": "90bc913f-2287-4c6b-b903-9759a582cd8c",
+				"method": "GET"
+			},
+			{
+				"id": "7a8e5331-4223-40bc-bf7d-dc04579cbe64",
+				"method": "GET"
+			},
+			{
+				"id": "97530ddd-22f9-44fd-91a5-a44bd7d3909e",
+				"method": "GET"
+			},
+			{
+				"id": "b27398d5-51f5-4b5c-a120-095d3f45fe75",
+				"method": "GET"
+			},
+			{
+				"id": "91dad1c1-aecc-4fb5-bef5-d63602e65405",
+				"method": "GET"
+			},
+			{
+				"id": "dba47023-f8e4-412e-a726-f818f423d384",
+				"method": "GET"
+			},
+			{
+				"id": "d1cf929c-8e7a-4628-8034-e3955fc3c1c9",
+				"method": "GET"
+			},
+			{
+				"id": "32405f89-b013-42b9-876d-6d9a30424dda",
+				"method": "GET"
+			},
+			{
+				"id": "9cfb8656-585a-4eaa-bae5-8ec0ab389ab3",
+				"method": "GET"
+			}
+		]
+	}
+}
