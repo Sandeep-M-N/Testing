@@ -1,0 +1,7 @@
+Test Suite,Test Case,Test Step,Step Type,Step Status,Result message,Execution Date
+calculator testcase,calculator,Calculator.asmx 1 - Request 1,restrequest,OK,,03-Jul-2024 18_23
+calculator testcase,calculator,Properties home,properties,OK,,03-Jul-2024 18_23
+calculator testcase,calculator,adiction1 - Request 1,restrequest,OK,,03-Jul-2024 18_23
+calculator testcase,calculator,mulitplay 1 - Request 1,restrequest,OK,,03-Jul-2024 18_23
+calculator testcase,calculator,division- Request 1,restrequest,OK,,03-Jul-2024 18_23
+calculator testcase,calculator,subraction 1 - Request 1,restrequest,OK,,03-Jul-2024 18_23
