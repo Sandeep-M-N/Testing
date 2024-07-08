@@ -1,0 +1,23 @@
+package io.cal;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class CalculatorProjectTest {
+
+	@Test
+	void test() {
+		
+		CalculatorProject c = new CalculatorProject();
+		int expected = 0;
+		int actual = c.add(1,1);
+		
+		assertEquals(expected,actual,"Add function calculate two inrtegers");
+		
+		
+		
+		
+	}
+
+}

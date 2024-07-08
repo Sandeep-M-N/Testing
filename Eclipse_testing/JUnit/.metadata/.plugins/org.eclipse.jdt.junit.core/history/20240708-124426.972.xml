@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="LifeCycleAnnotationTest" project="JunitProjectTest" tests="1" started="1" failures="1" errors="0" ignored="0">
+  <testsuite name="io.cal.LifeCycleAnnotationTest" time="0.052" displayname="LifeCycleAnnotationTest" uniqueid="[engine:junit-jupiter]/[class:io.cal.LifeCycleAnnotationTest]">
+    <testsuite name="io.cal.LifeCycleAnnotationTest$testPositivenumber" time="0.052" displayname="testPositivenumber" uniqueid="[engine:junit-jupiter]/[class:io.cal.LifeCycleAnnotationTest]/[nested-class:testPositivenumber]">
+      <testcase name="testNegativeeno" classname="io.cal.LifeCycleAnnotationTest.testPositivenumber" time="0.052" displayname="testNegativeeno()" uniqueid="[engine:junit-jupiter]/[class:io.cal.LifeCycleAnnotationTest]/[nested-class:testPositivenumber]/[method:testNegativeeno()]">
+        <failure>
+          <expected>-2</expected>
+          <actual>2</actual>
+          org.opentest4j.AssertionFailedError: should retrun a -ve value ==&gt; expected: &lt;-2&gt; but was: &lt;2&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:156)&#13;
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:598)&#13;
+	at io.cal.LifeCycleAnnotationTest$testPositivenumber.testNegativeeno(LifeCycleAnnotationTest.java:48)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+
+        </failure>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

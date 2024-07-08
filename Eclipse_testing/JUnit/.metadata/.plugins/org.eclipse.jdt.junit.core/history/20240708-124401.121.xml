@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="LifeCycleAnnotationTest" project="JunitProjectTest" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="io.cal.LifeCycleAnnotationTest" time="0.0" displayname="LifeCycleAnnotationTest" uniqueid="[engine:junit-jupiter]/[class:io.cal.LifeCycleAnnotationTest]">
+    <testsuite name="io.cal.LifeCycleAnnotationTest$testPositivenumber" time="0.0" displayname="testPositivenumber" uniqueid="[engine:junit-jupiter]/[class:io.cal.LifeCycleAnnotationTest]/[nested-class:testPositivenumber]">
+      <testcase name="testNegativeeno" classname="io.cal.LifeCycleAnnotationTest.testPositivenumber" time="0.0" displayname="testNegativeeno()" uniqueid="[engine:junit-jupiter]/[class:io.cal.LifeCycleAnnotationTest]/[nested-class:testPositivenumber]/[method:testNegativeeno()]"/>
+    </testsuite>
+  </testsuite>
+</testrun>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="AmazonCreateAnAccountPageTest" project="JunitProjectTest" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="io.cal.AmazonCreateAnAccountPageTest" time="16.164" displayname="AmazonCreateAnAccountPageTest" uniqueid="[engine:junit-jupiter]/[class:io.cal.AmazonCreateAnAccountPageTest]">
+    <testcase name="ClickContinue" classname="io.cal.AmazonCreateAnAccountPageTest" time="16.164" displayname="ClickContinue()" uniqueid="[engine:junit-jupiter]/[class:io.cal.AmazonCreateAnAccountPageTest]/[method:ClickContinue()]"/>
+  </testsuite>
+</testrun>

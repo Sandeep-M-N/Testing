@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CalculatorProjectTest" project="JunitProjectTest" tests="1" started="1" failures="1" errors="0" ignored="0">
+  <testsuite name="io.cal.CalculatorProjectTest" time="0.089" displayname="CalculatorProjectTest" uniqueid="[engine:junit-jupiter]/[class:io.cal.CalculatorProjectTest]">
+    <testcase name="test" classname="io.cal.CalculatorProjectTest" time="0.089" displayname="test()" uniqueid="[engine:junit-jupiter]/[class:io.cal.CalculatorProjectTest]/[method:test()]">
+      <failure>
+        <expected>0</expected>
+        <actual>2</actual>
+        org.opentest4j.AssertionFailedError: Add function calculate two inrtegers ==&gt; expected: &lt;0&gt; but was: &lt;2&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)&#13;
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)&#13;
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:563)&#13;
+	at io.cal.CalculatorProjectTest.test(CalculatorProjectTest.java:16)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+
+      </failure>
+    </testcase>
+  </testsuite>
+</testrun>

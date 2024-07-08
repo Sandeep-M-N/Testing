@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="AmazonCreateAnAccountPageTest" project="JunitProjectTest" tests="1" started="1" failures="1" errors="0" ignored="0">
+  <testsuite name="io.cal.AmazonCreateAnAccountPageTest" time="4.556" displayname="AmazonCreateAnAccountPageTest" uniqueid="[engine:junit-jupiter]/[class:io.cal.AmazonCreateAnAccountPageTest]">
+    <testcase name="checkPassword" classname="io.cal.AmazonCreateAnAccountPageTest" time="4.556" displayname="checkPassword()" uniqueid="[engine:junit-jupiter]/[class:io.cal.AmazonCreateAnAccountPageTest]/[method:checkPassword()]">
+      <failure>
+        <expected>12345</expected>
+        <actual>false</actual>
+        org.opentest4j.AssertionFailedError: expected: &lt;12345&gt; but was: &lt;false&gt;&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)&#13;
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)&#13;
+	at org.junit.jupiter.api.AssertSame.failNotSame(AssertSame.java:50)&#13;
+	at org.junit.jupiter.api.AssertSame.assertSame(AssertSame.java:35)&#13;
+	at org.junit.jupiter.api.AssertSame.assertSame(AssertSame.java:30)&#13;
+	at org.junit.jupiter.api.Assertions.assertSame(Assertions.java:2860)&#13;
+	at io.cal.AmazonCreateAnAccountPageTest.checkPassword(AmazonCreateAnAccountPageTest.java:80)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+
+      </failure>
+    </testcase>
+  </testsuite>
+</testrun>
