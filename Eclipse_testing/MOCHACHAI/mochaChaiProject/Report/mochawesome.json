@@ -1,0 +1,759 @@
+{
+  "stats": {
+    "suites": 11,
+    "tests": 12,
+    "passes": 9,
+    "pending": 1,
+    "failures": 2,
+    "start": "2024-07-09T12:33:34.122Z",
+    "end": "2024-07-09T12:33:34.328Z",
+    "duration": 206,
+    "testsRegistered": 12,
+    "passPercent": 81.81818181818183,
+    "pendingPercent": 8.333333333333332,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "3659be30-64ad-4e30-bcb3-4ff3a1101a22",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "a87c64bf-bcbc-4218-af1d-a4cb08b0cc14",
+          "title": "suite 1",
+          "fullFile": "C:\\Users\\sandeep.mn\\mochaChaiProject\\test\\app.spec.js",
+          "file": "\\test\\app.spec.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "add(2,3) should return 5",
+              "fullTitle": "suite 1 add(2,3) should return 5",
+              "timedOut": false,
+              "duration": 2,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "// by using BDD = context & specify\n      expect(add(4,3)).to.be.equal(7);",
+              "err": {},
+              "uuid": "fbe39962-9ca1-4ee9-ba15-d5c2c0f6b61d",
+              "parentUUID": "a87c64bf-bcbc-4218-af1d-a4cb08b0cc14",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "fbe39962-9ca1-4ee9-ba15-d5c2c0f6b61d"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 2,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "33bc39f0-0eb0-454f-992f-71e3d8128164",
+          "title": "suite2",
+          "fullFile": "C:\\Users\\sandeep.mn\\mochaChaiProject\\test\\app.spec.js",
+          "file": "\\test\\app.spec.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "sub(5,10) should return 5",
+              "fullTitle": "suite2 sub(5,10) should return 5",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "// by using TDD\n     expect(sub(5,10)).to.be.equal(5)",
+              "err": {},
+              "uuid": "cda81548-deab-4f44-b41f-a72e71082501",
+              "parentUUID": "33bc39f0-0eb0-454f-992f-71e3d8128164",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "cda81548-deab-4f44-b41f-a72e71082501"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "45a5f1e6-d689-4fe4-9dd9-75ade22a32a5",
+          "title": "suite3",
+          "fullFile": "C:\\Users\\sandeep.mn\\mochaChaiProject\\test\\app.spec.js",
+          "file": "\\test\\app.spec.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "mul(5,5) should return 25",
+              "fullTitle": "suite3 mul(5,5) should return 25",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "// by using BDD= describe & it\n     expect(mul(5,5)).to.be.equal(25)",
+              "err": {},
+              "uuid": "90e07e58-e164-4e58-be8a-6f6324bbba19",
+              "parentUUID": "45a5f1e6-d689-4fe4-9dd9-75ade22a32a5",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "90e07e58-e164-4e58-be8a-6f6324bbba19"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "3f6f3858-5e60-4aa7-a254-7a309c13b360",
+          "title": "suitearea",
+          "fullFile": "C:\\Users\\sandeep.mn\\mochaChaiProject\\test\\app1.spec.js",
+          "file": "\\test\\app1.spec.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "circle(10) should return 314",
+              "fullTitle": "suitearea circle(10) should return 314",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(areaOfCircle(10)).to.be.equal(314)",
+              "err": {},
+              "uuid": "39b6d6d5-bd5e-4a86-a68e-44df8cfddd2d",
+              "parentUUID": "3f6f3858-5e60-4aa7-a254-7a309c13b360",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "39b6d6d5-bd5e-4a86-a68e-44df8cfddd2d"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "b8a7c8b0-f956-4e2c-a721-26505d21aee1",
+          "title": "async test suite1",
+          "fullFile": "C:\\Users\\sandeep.mn\\mochaChaiProject\\test\\async.app.spec.js",
+          "file": "\\test\\async.app.spec.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "promised based way",
+              "fullTitle": "async test suite1 promised based way",
+              "timedOut": false,
+              "duration": 68,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "return axios.get('http://localhost:8888/users').then(res=>{\n    expect(res.data[1].useremail).to.be.equal('siva123@gmail.com')\n    expect(res.data[1].username).to.be.equal('tempuser')\n    expect(res.data[1].carname).to.be.equal('suzuki-nexa')\n    expect(res.data[1].carprice).to.be.equal(8500)\n})",
+              "err": {},
+              "uuid": "79e4d29c-762c-45ac-b25a-9f401a7681cf",
+              "parentUUID": "b8a7c8b0-f956-4e2c-a721-26505d21aee1",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "done based way",
+              "fullTitle": "async test suite1 done based way",
+              "timedOut": false,
+              "duration": 5,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "axios.get('http://localhost:8888/users').then(res=>{\n    expect(res.data[2].username).to.be.equal('eeswaran')\n    done()\n}).catch(err =>{\n    done(err)\n})",
+              "err": {},
+              "uuid": "19cfd170-bc8e-48fc-824a-7d46e90e9f2b",
+              "parentUUID": "b8a7c8b0-f956-4e2c-a721-26505d21aee1",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "aync await based way",
+              "fullTitle": "async test suite1 aync await based way",
+              "timedOut": false,
+              "duration": 4,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const res = await axios.get('http://localhost:8888/users')\nexpect(res.data[1].username).to.be.equal('tempuser')",
+              "err": {},
+              "uuid": "b46ae7f7-c36f-4234-9a55-bcc773638f28",
+              "parentUUID": "b8a7c8b0-f956-4e2c-a721-26505d21aee1",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "79e4d29c-762c-45ac-b25a-9f401a7681cf",
+            "19cfd170-bc8e-48fc-824a-7d46e90e9f2b",
+            "b46ae7f7-c36f-4234-9a55-bcc773638f28"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 77,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "fcef89b5-cd94-4112-9e44-605d3badf462",
+          "title": "HooksSuite 1",
+          "fullFile": "C:\\Users\\sandeep.mn\\mochaChaiProject\\test\\hooks.spec.js",
+          "file": "\\test\\hooks.spec.js",
+          "beforeHooks": [
+            {
+              "title": "\"before all\" hook",
+              "fullTitle": "HooksSuite 1 \"before all\" hook",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "console.log('before')",
+              "err": {},
+              "uuid": "8b305a0d-2f1e-4b48-8034-d66f6b58ab65",
+              "parentUUID": null,
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"before each\" hook",
+              "fullTitle": "HooksSuite 1 \"before each\" hook",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "console.log('beforeEach')",
+              "err": {},
+              "uuid": "a21570ec-8fcc-4ab0-a238-c65411218ef2",
+              "parentUUID": null,
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [
+            {
+              "title": "\"after all\" hook",
+              "fullTitle": "HooksSuite 1 \"after all\" hook",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "console.log('after')",
+              "err": {},
+              "uuid": "d9f1249f-35ae-48e8-89c8-8ae4c5dbae0f",
+              "parentUUID": null,
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"after each\" hook",
+              "fullTitle": "HooksSuite 1 \"after each\" hook",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "console.log('afterEach')",
+              "err": {},
+              "uuid": "ca7d9752-99d7-4330-adc5-950e2444bb52",
+              "parentUUID": null,
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "tests": [],
+          "suites": [],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "880050fb-2bba-46e3-ace7-b5ce020202e0",
+          "title": "HooksSuite 1",
+          "fullFile": "C:\\Users\\sandeep.mn\\mochaChaiProject\\test\\hooksmocha.spec.js",
+          "file": "\\test\\hooksmocha.spec.js",
+          "beforeHooks": [
+            {
+              "title": "\"before all\" hook in \"HooksSuite 1\"",
+              "fullTitle": "HooksSuite 1 \"before all\" hook in \"HooksSuite 1\"",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "console.log('before')",
+              "err": {},
+              "uuid": "6e4d5392-5ccc-4af3-b110-48ce37cfc847",
+              "parentUUID": "880050fb-2bba-46e3-ace7-b5ce020202e0",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"before each\" hook in \"HooksSuite 1\"",
+              "fullTitle": "HooksSuite 1 \"before each\" hook in \"HooksSuite 1\"",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "console.log('beforeEach')",
+              "err": {},
+              "uuid": "7ed3b93a-be19-4be3-afd5-dd6b31cb3759",
+              "parentUUID": "880050fb-2bba-46e3-ace7-b5ce020202e0",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [
+            {
+              "title": "\"after all\" hook in \"HooksSuite 1\"",
+              "fullTitle": "HooksSuite 1 \"after all\" hook in \"HooksSuite 1\"",
+              "timedOut": false,
+              "duration": 1,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "console.log('after')",
+              "err": {},
+              "uuid": "5b244354-decd-4328-b971-834b740d2faa",
+              "parentUUID": "880050fb-2bba-46e3-ace7-b5ce020202e0",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"after each\" hook in \"HooksSuite 1\"",
+              "fullTitle": "HooksSuite 1 \"after each\" hook in \"HooksSuite 1\"",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "console.log('afterEach')",
+              "err": {},
+              "uuid": "69c9dade-e44b-4391-9d3a-49c2012ca9b4",
+              "parentUUID": "880050fb-2bba-46e3-ace7-b5ce020202e0",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "tests": [],
+          "suites": [
+            {
+              "uuid": "a2d943b6-8222-431a-84cf-86a57418f003",
+              "title": "suite3",
+              "fullFile": "C:\\Users\\sandeep.mn\\mochaChaiProject\\test\\hooksmocha.spec.js",
+              "file": "\\test\\hooksmocha.spec.js",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "mul(5,5) should return 25",
+                  "fullTitle": "HooksSuite 1 suite3 mul(5,5) should return 25",
+                  "timedOut": false,
+                  "duration": 0,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "// by using BDD= describe & it\n         expect(mul(5,5)).to.be.equal(25)",
+                  "err": {},
+                  "uuid": "0201876f-7f5d-4fa7-8673-dd51e4cd9b0c",
+                  "parentUUID": "a2d943b6-8222-431a-84cf-86a57418f003",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "0201876f-7f5d-4fa7-8673-dd51e4cd9b0c"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 0,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            }
+          ],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "b70a9b93-7371-4075-af5b-ec7bb94b0faa",
+          "title": "TDD hooks",
+          "fullFile": "C:\\Users\\sandeep.mn\\mochaChaiProject\\test\\hooksTDD.spec.js",
+          "file": "\\test\\hooksTDD.spec.js",
+          "beforeHooks": [
+            {
+              "title": "\"before all\" hook in \"TDD hooks\"",
+              "fullTitle": "TDD hooks \"before all\" hook in \"TDD hooks\"",
+              "timedOut": false,
+              "duration": 1,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "// launch browser\n    console.log('one suitesteup')",
+              "err": {},
+              "uuid": "dc9072d6-45e8-4877-916f-1567f744c87e",
+              "parentUUID": "b70a9b93-7371-4075-af5b-ec7bb94b0faa",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"before each\" hook in \"TDD hooks\"",
+              "fullTitle": "TDD hooks \"before each\" hook in \"TDD hooks\"",
+              "timedOut": false,
+              "duration": 1,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "// login\n      console.log('one setup')",
+              "err": {},
+              "uuid": "48a6b57f-5026-4d45-8503-bec6e3e45bd9",
+              "parentUUID": "b70a9b93-7371-4075-af5b-ec7bb94b0faa",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [
+            {
+              "title": "\"after all\" hook in \"TDD hooks\"",
+              "fullTitle": "TDD hooks \"after all\" hook in \"TDD hooks\"",
+              "timedOut": false,
+              "duration": 1,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "// close browser\n      console.log('one suiteteardown')",
+              "err": {},
+              "uuid": "62b13acf-8528-43ea-a143-f9a8367be6d5",
+              "parentUUID": "b70a9b93-7371-4075-af5b-ec7bb94b0faa",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"after each\" hook in \"TDD hooks\"",
+              "fullTitle": "TDD hooks \"after each\" hook in \"TDD hooks\"",
+              "timedOut": false,
+              "duration": 1,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "// logout\n     console.log('one teardown')",
+              "err": {},
+              "uuid": "51f165e6-389d-4b2b-9994-47a2161b2786",
+              "parentUUID": "b70a9b93-7371-4075-af5b-ec7bb94b0faa",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "tests": [
+            {
+              "title": "add(7,3) should return 10",
+              "fullTitle": "TDD hooks add(7,3) should return 10",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "console.log('one test')",
+              "err": {},
+              "uuid": "85dbf1ce-e1ea-4072-b744-2d58c58084d0",
+              "parentUUID": "b70a9b93-7371-4075-af5b-ec7bb94b0faa",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "85dbf1ce-e1ea-4072-b744-2d58c58084d0"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "c9710c39-0572-4231-b163-2d81515897d7",
+          "title": "async test suite1",
+          "fullFile": "C:\\Users\\sandeep.mn\\mochaChaiProject\\test\\retries.spec.js",
+          "file": "\\test\\retries.spec.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "promised based way",
+              "fullTitle": "async test suite1 promised based way",
+              "timedOut": false,
+              "duration": 8,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "this.retries(3);\nreturn axios.get('http://localhost:8888/users').then(res=>{\n    expect(res.data[1].useremail).to.be.equal('siv123@gmail.com')\n    expect(res.data[1].username).to.be.equal('tempuser')\n    expect(res.data[1].carname).to.be.equal('suzuki-nexa')\n    expect(res.data[1].carprice).to.be.equal(8500)\n}).catch(err =>{\n    console.log(\"error during test:\",err)\n    throw err;\n})",
+              "err": {
+                "message": "AssertionError: expected 'siva123@gmail.com' to equal 'siv123@gmail.com'",
+                "estack": "AssertionError: expected 'siva123@gmail.com' to equal 'siv123@gmail.com'\n    at C:\\Users\\sandeep.mn\\mochaChaiProject\\test\\retries.spec.js:14:49\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)",
+                "diff": "- siva123@gmail.com\n+ siv123@gmail.com\n"
+              },
+              "uuid": "533748c7-19b3-4c3e-9239-1833ed662bb9",
+              "parentUUID": "c9710c39-0572-4231-b163-2d81515897d7",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "533748c7-19b3-4c3e-9239-1833ed662bb9"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 8,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "bb0543b0-0277-4c34-9224-be379dd9f634",
+          "title": "async test suite1",
+          "fullFile": "C:\\Users\\sandeep.mn\\mochaChaiProject\\test\\skip.spec.js",
+          "file": "\\test\\skip.spec.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "promised based way",
+              "fullTitle": "async test suite1 promised based way",
+              "timedOut": false,
+              "duration": 0,
+              "state": "pending",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": true,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "afdf0756-3ff3-4a51-9270-8cc69b586d2e",
+              "parentUUID": "bb0543b0-0277-4c34-9224-be379dd9f634",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [],
+          "pending": [
+            "afdf0756-3ff3-4a51-9270-8cc69b586d2e"
+          ],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "07ec8eb6-da66-480e-80e8-53ebaadd30f5",
+          "title": "async test suite1",
+          "fullFile": "C:\\Users\\sandeep.mn\\mochaChaiProject\\test\\timeout.spec.js",
+          "file": "\\test\\timeout.spec.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "promised based way",
+              "fullTitle": "async test suite1 promised based way",
+              "timedOut": true,
+              "duration": 2,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "this.timeout(1);\nreturn axios.get('http://localhost:8888/users').then(res=>{\n    expect(res.data[1].useremail).to.be.equal('siva123@gmail.com')\n    expect(res.data[1].username).to.be.equal('tempuser')\n    expect(res.data[1].carname).to.be.equal('suzuki-nexa')\n    expect(res.data[1].carprice).to.be.equal(8500)\n}).catch(err =>{\n    console.log(\"error during test:\",err)\n    throw err;\n})",
+              "err": {
+                "message": "Error: Timeout of 1ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves. (C:\\Users\\sandeep.mn\\mochaChaiProject\\test\\timeout.spec.js)",
+                "estack": "Error: Timeout of 1ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves. (C:\\Users\\sandeep.mn\\mochaChaiProject\\test\\timeout.spec.js)\n    at listOnTimeout (node:internal/timers:573:17)\n    at process.processTimers (node:internal/timers:514:7)",
+                "diff": null
+              },
+              "uuid": "f6b5f456-48f4-4ef3-8ea4-6c68b1e5cc47",
+              "parentUUID": "07ec8eb6-da66-480e-80e8-53ebaadd30f5",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "f6b5f456-48f4-4ef3-8ea4-6c68b1e5cc47"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 2,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "10.6.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "Report",
+        "reopenfilename": "Test_Report"
+      },
+      "version": "6.2.0"
+    }
+  }
+}
